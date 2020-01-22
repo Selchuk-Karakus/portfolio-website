@@ -3,7 +3,6 @@
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	background-color:hsl(175, 87%, 41%);
 }
 
 .navbar-logo a {
@@ -30,6 +29,8 @@
 .navbar-navigation-items a:hover,
 .navbar-navigation-items a:active {
 	color: rgb(97, 90, 90);
+	border-bottom: solid;
+	padding-bottom: 5px;
 }
 
 .navbar-navigation-items ul {

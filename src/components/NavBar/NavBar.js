@@ -5,7 +5,6 @@ import "./NavBar.css";
 const navbar = props => (
   <header className="navbar">
     <nav className="navbar-navigation">
-      <div></div>
       <div className="navbar-logo"><a href="/">SK</a></div>
       <div className='separator'></div>
       <div className="navbar-navigation-items">
@@ -15,8 +14,6 @@ const navbar = props => (
           <li><a href="/">Contacts</a></li>
         </ul>
       </div>
-      <div></div>
-      <div></div>
     </nav>
 </header>
 );

@@ -1,11 +1,14 @@
 import React from "react";
 import "./Main.css";
+import bubbles from "../images/bubbles.jpg"
 
 
 const main = props => (
-  <main>
-        <h1>Selchuk Karakus</h1>
-        <p>Website & Portfolio of a Software Developer | London-based</p>
+  <main className="container">
+      <h1 className="header">Selchuk Karakus</h1>
+        <div className="intro">
+            <p>Website & Portfolio of a Software Developer | London-based</p>
+        </div>
   </main>
 );
 
