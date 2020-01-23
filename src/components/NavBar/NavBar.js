@@ -1,11 +1,10 @@
 import React from "react";
-import "./NavBar.css";
+import "./navBar.css";
 
 
 function NavBar() {
   return ( 
-    <header className="navbar">
-      <nav className="navbar-navigation">
+      <nav className="navbar navbar-navigation">
         <div className="navbar-logo"><a href="/">SK</a></div>
         <div className='separator'></div>
         <div className="navbar-navigation-items">
@@ -16,7 +15,6 @@ function NavBar() {
           </ul>
         </div>
       </nav>
-    </header>
   );
 }
 
