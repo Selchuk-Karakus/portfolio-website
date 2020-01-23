@@ -6,8 +6,9 @@ function About() {
             <h1>About Me</h1>
             <section>
                 <p>
-                    A graduate of Le Wagon London, 
-                    a bootcamp teaching Full-Stack Ruby on Rails.
+                    A graduate of KODIRI, 
+                    a bootcamp teaching Full-Stack Developer focusing primarirly
+                    on JavaScript, React, NodeJs, ExpressJS and MongoDB.
                 </p>
                 <p>
                     Before my devotion to computer programming,
