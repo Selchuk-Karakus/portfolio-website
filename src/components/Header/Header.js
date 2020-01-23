@@ -1,9 +1,9 @@
 import React from "react";
-import "./Main.css";
+import "./Header.css";
 import bubbles from "../images/bubbles.jpg"
 
 
-function Main() { 
+function Header() { 
   return (
     <main className="container">
         <h1 className="header">Selchuk Karakus</h1>
@@ -14,4 +14,4 @@ function Main() {
   );
 } 
 
-export default Main
+export default Header
