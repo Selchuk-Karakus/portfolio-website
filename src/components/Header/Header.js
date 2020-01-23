@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import bubbles from "../images/bubbles.jpg"
+// import bubbles from "../images/bubbles.jpg"
 
 
 function Header() { 
