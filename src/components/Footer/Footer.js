@@ -1,9 +1,9 @@
 import React from 'react';
-import './footer.css';
+import './Footer.css';
 
 function Footer() {
     return (
-        <footer>
+        <footer className='Footer'>
             <h2>Get In Touch</h2>
             <p>Let's grab a drink to find out if I can be of any help to you. 
                 Please don't hesitate to contact me by email or phone.

@@ -1,8 +1,9 @@
 import React from 'react';
+import './About.css';
 
 function About() {
     return (
-        <main>
+        <main className='About'>
             <h1>About Me</h1>
             <section>
                 <p>

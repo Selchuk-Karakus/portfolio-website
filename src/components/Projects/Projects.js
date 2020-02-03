@@ -3,9 +3,11 @@ import './projects.css';
 
 function Projects() {
     return (
-        <section className='project-container'>
-        <h1>My Projects</h1>
-        </section>
+        <div className='Projects'>
+            <section className='project-container'>
+            <h1>My Projects</h1>
+            </section>
+        </div>
     );
 }
 
