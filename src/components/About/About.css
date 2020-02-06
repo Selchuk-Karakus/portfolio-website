@@ -11,6 +11,10 @@ hr {
     width: 70%;
 }
 
+#About {
+    padding-top: 50px;
+}
+
 section > p {
     line-height: 50px;
 }
