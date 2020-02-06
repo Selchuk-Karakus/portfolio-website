@@ -5,7 +5,7 @@ import "./Header.css";
 
 function Header() { 
   return (
-    <header className="container">
+    <header id='Home' className="container">
         <h1 className="header">Selchuk Karakus</h1>
           <div className="intro">
               <p>Website & Portfolio of a Software Developer | London-based</p>
