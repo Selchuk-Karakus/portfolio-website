@@ -1,3 +1,16 @@
 .About {
-    background-color: rgb(229, 232, 236)
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.About > h1 {
+    margin-top: 50px;
+}
+
+hr {
+    width: 70%;
+}
+
+section > p {
+    line-height: 50px;
 }
