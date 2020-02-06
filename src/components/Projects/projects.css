@@ -2,6 +2,10 @@
         background-color: rgb(255, 255, 255)
 }
 
+#Projects {
+        padding-top: 50px;
+}
+
 .Projects > h1 {
         text-align: center;
         margin-top: 50px;

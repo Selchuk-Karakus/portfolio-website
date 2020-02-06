@@ -1,3 +1,30 @@
 footer {
-    background-color:#39B0CA
+    background-color:rgb(255, 255, 255);
+    padding-top: 30px;
 }
+
+footer > h2, p {
+    padding-top: 30px;
+    line-height: 30px;
+    text-align: center
+}
+
+footer > ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0 0;
+}
+
+li {
+    padding: 30px 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #39B0CA;
+    font-weight: 700;
+}
+ footer a:hover {
+     color: gray;
+ }
