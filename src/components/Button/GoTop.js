@@ -1,5 +1,6 @@
 import React from 'react';
 import './GoTop.css'
+import HandUp from '../images/handUp.svg'
 
 class GoTop extends React.Component {
     state = {
@@ -9,7 +10,7 @@ class GoTop extends React.Component {
 
     componentDidMount() {
         document.addEventListener("scroll", () => {
-            if (window.scrollY > 170) {
+            if (window.scrollY > 740) {
                 this.setState({ thePosition: true })
             } else {
                 this.setState({ thePosition: false })
@@ -25,17 +26,17 @@ class GoTop extends React.Component {
         window.scroll(0, window.pageYOffset - this.props.scrollStepInPx);
     }
 
-    scrollToTop = () => {
-        let intervalId = setInterval(this.onScrollStep, this.props.delayInMs);
-        this.setState({ intervalId: intervalId });
-    }
+    scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+      }
 
     renderGoTopIcon = () => {
         if (this.state.thePosition){
             return (
-                <div className="go-top" onClick={this.scrollToTop}>
-                    GoTop
-                </div>
+                <a class='go-top zoom'><img src={HandUp} onClick={this.scrollToTop} /></a>
             )
         }
     }

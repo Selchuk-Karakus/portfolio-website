@@ -1,12 +1,11 @@
 .go-top {
     position: fixed;
     cursor: pointer;
-    bottom: 30px;
+    bottom: 48px;
     right: 0;
     color: #ffffff;
-    background-color: #39B0CA;
     z-index: 1;
-    width: 70px;
+    width: 85px;
     text-align: center;
     height: 45px;
     border-radius: 10px 0 0 10px;
