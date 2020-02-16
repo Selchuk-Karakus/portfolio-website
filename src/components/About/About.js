@@ -9,14 +9,15 @@ function About() {
                 <section>
                     <p>
                         I'm interested in I.T and everything it orbits! A graduate of KODIRI, 
-                        a bootcamp teaching Full-Stack Developer focusing primarirly
-                        on JavaScript, React, NodeJs, ExpressJS and MongoDB.
+                        a bootcamp teaching <strong>Full-Stack Developer</strong> focusing primarirly
+                        on <strong>JavaScript</strong>, <strong>React</strong>, <strong>NodeJs</strong>,
+                        <strong>ExpressJS</strong> and <strong>MongoDB</strong>.
                     </p>
                     <hr />
                     <p>
                         Before my devotion to computer programming,
                         I did years of professional work in hospitality industry where 
-                        I’ve picked up key skills including communication, teamwork and customer service.
+                        I’ve picked up key skills including <strong>communication</strong>, <strong>teamwork</strong> and <strong>customer service</strong>.
                     </p>
                     <hr />
                     <p>

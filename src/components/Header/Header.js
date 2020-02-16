@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-// import bubbles from "../images/bubbles.jpg"
+import ScrollDown from "../images/scrollDown.svg";
 
 
 function Header() { 
@@ -8,7 +8,11 @@ function Header() {
     <header id='Home' className="container">
         <h1 className="header">Selchuk Karakus</h1>
           <div className="intro">
-              <p className='animated fadeInLeftBig delay-1s'>Website & Portfolio of a Software Developer | London-based</p>
+              <p className='animated fadeInLeftBig delay-1s'>Website &
+               Portfolio of a Software Developer | London-based</p>
+          </div>
+          <div className="scroll-down animated bounce delay-3s">
+            <img src={ScrollDown}/>
           </div>
     </header>
   );

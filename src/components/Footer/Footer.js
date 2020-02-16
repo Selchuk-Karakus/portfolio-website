@@ -8,7 +8,7 @@ import './Footer.css';
 function Footer() {
     return (
         <footer id='Contacts' className='Footer'>
-            <h2>Get In Touch</h2>
+            <h1>Get In Touch</h1>
             <p>Let's grab a drink to find out if I can be of any help to you. 
                 Please don't hesitate to contact me by email.
                  Or reach out to me on: LinkedIn.</p>
