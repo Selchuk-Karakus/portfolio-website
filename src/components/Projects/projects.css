@@ -16,7 +16,7 @@
 /* For desktop: */
 @media only screen and (min-width: 768px) {
 .project-container {
-        width: 100vw;
+        width: 9vw;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;

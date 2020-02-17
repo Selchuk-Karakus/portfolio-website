@@ -11,7 +11,7 @@ function Header() {
               <p className='animated fadeInLeftBig delay-1s'>Website &
                Portfolio of a Software Developer | London-based</p>
           </div>
-          <div className="scroll-down animated bounce delay-3s">
+          <div className="scroll-down animated bounce delay-2s">
             <img src={ScrollDown}/>
           </div>
     </header>
