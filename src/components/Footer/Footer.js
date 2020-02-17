@@ -11,13 +11,14 @@ function Footer() {
             <h1>Get In Touch</h1>
             <p>Let's grab a drink to find out if I can be of any help to you. 
                 Please don't hesitate to contact me by email.
-                 Or reach out to me on: LinkedIn.</p>
+                 Or reach out to me on LinkedIn.</p>
             <ul>
                 <li className='zoom'><a href='https://www.linkedin.com/in/selchuk-karakus/' target='_blank'><img src={LinkedIn} /></a></li>
                 <li className='zoom'><a href='https://github.com/Selchuck' target='_blank'><img src={GithubLogo} /></a></li>
                 <li className='zoom'><a href='https://twitter.com/KarakusSelchuk' target='_blank'><img src={TwitterLogo} /></a></li>
                 <li className='zoom'><a href='mailto:selchuk.karakus@gmail.com' target='_blank'><img src={GmailLogo} /></a></li>
             </ul>
+            <small>&copy; Copyright 2020, Selchuk Karakus @ www.selchuk-karakus.now.sh</small>
         </footer>
     )   
 }

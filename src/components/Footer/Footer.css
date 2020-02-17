@@ -4,7 +4,7 @@ footer {
 }
 
 footer > h1, p {
-    padding-top: 30px;
+    padding: 30px;
     line-height: 30px;
     text-align: center
 }
@@ -37,3 +37,6 @@ a {
   .zoom:hover {
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
+small {
+    padding: 20px 10px;
+}
