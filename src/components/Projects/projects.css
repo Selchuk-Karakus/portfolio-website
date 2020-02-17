@@ -13,12 +13,15 @@
         text-shadow: 1px 1px;
 }
 
+/* For desktop: */
+@media only screen and (min-width: 768px) {
 .project-container {
         width: 100vw;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         grid-gap: 1px;
+        }
 }
 
 .item {
@@ -59,4 +62,9 @@
         animation-duration: 10s;
         animation-delay: 50s;
         animation-iteration-count: infinite;
+}
+
+/* For mobile phones: */
+.project-container {
+        width: 100%;
 }
