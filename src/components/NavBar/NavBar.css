@@ -4,6 +4,7 @@
 	top: 0px;
 	left: 0px;
 	background-color: rgb(255, 255, 255);
+	z-index: 1;
 }
 
 .navbar-logo a {
@@ -96,10 +97,6 @@ nav.fill ul li a:hover:after {
 }
 
 @media only screen and (max-width: 600px) {
-.navbar-logo a {
-	display: inline;
-	padding: 8rem;
-	}
 
 .navbar-navigation-items li {
 		display: none;
