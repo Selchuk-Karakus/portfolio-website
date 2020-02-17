@@ -30,7 +30,6 @@
 
 .navbar-navigation-items a:hover,
 .navbar-navigation-items a:active {
-	/* color: rgb(97, 90, 90); */
 	border-bottom: 1px solid #39B0CA;
 	padding-bottom: 28px;
 	transition: all 1s;
@@ -94,5 +93,16 @@ nav.fill ul li a:hover:after {
   -webkit-animation: fill 1s forwards;
   -moz-animation: fill 1s forwards;
   opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+.navbar-logo a {
+	display: inline;
+	padding: 8rem;
+	}
+
+.navbar-navigation-items li {
+		display: none;
+	}
 }
 

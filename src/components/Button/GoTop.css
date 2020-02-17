@@ -13,3 +13,10 @@
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
+
+@media only screen and (max-width: 600px) {
+    .go-top {
+    height: 100px;
+    width: 90px;
+  }
+}
