@@ -9,7 +9,7 @@ function About() {
                 <section>
                     <p>
                         I'm interested in I.T and everything it orbits! A graduate of KODIRI, 
-                        a bootcamp teaching <strong>Full-Stack Developer</strong> focusing primarirly
+                        a bootcamp teaching <strong>Full-Stack Developer</strong> focusing primarily
                         on <strong>JavaScript</strong>, <strong>React</strong>, <strong>NodeJs</strong>,
                         <strong>ExpressJS</strong> and <strong>MongoDB</strong>.
                     </p>
