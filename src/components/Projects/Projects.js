@@ -1,6 +1,7 @@
 import React from "react";
 import "./projects.css";
 import ClickMe from "../images/clickMe.svg";
+import projectsLogo from "../images/projects.svg";
 
 function Projects() {
   return (

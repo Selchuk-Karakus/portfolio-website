@@ -4,6 +4,7 @@ import jsLogo from '../images/js.svg';
 import computerLogo from '../images/computer.svg';
 import teamLogo from '../images/team.svg';
 import transferLogo from '../images/transfer.svg';
+import reactLogo from '../images/react.svg';
 
 function About() {
     return (
@@ -17,7 +18,8 @@ function About() {
                         on <strong>JavaScript</strong>, <strong>React</strong>, <strong>NodeJs</strong>,
                         <strong>ExpressJS</strong> and <strong>MongoDB</strong>.
                     </p>
-                    <img src={jsLogo}/>
+                    <img className="aboutLogo" src={jsLogo}/>
+                    <img className="aboutLogo" src={reactLogo}/>
                     <hr />
                     <p>
                         Before my devotion to computer programming,
@@ -33,10 +35,10 @@ function About() {
                     <img src={computerLogo}/>
                     <hr />
                     <p>
-                        As a career changer I believe I am abnormaly driven with a frightening big appetite,
+                        As a career changer I believe I am abnormally driven with a frightening big appetite,
                         and now want to join a team to build exciting,
-                        elegant and responsive website's and applications for any sector
-                        where good user-friendly design makes a difference!
+                        elegant and <strong>responsive</strong> website's and applications for any sector
+                        where good <strong>user-friendly</strong> design makes a difference!
                     </p>
                     <img src={transferLogo}/>
                 </section>
