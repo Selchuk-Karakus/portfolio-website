@@ -12,7 +12,7 @@ function About() {
                 <h1>About Me</h1>
                 <section>
                     <p>
-                        I'm interested in I.T and everything it orbits! A graduate of KODIRI, 
+                        I'm interested in I.T and everything it orbits! A graduate of KODIRI 
                         a bootcamp teaching <strong>Full-Stack Development</strong> focusing primarily
                         on <strong>JavaScript</strong>, <strong>React</strong>, <strong>NodeJs</strong>,
                         <strong>ExpressJS</strong> and <strong>MongoDB</strong>.
@@ -21,7 +21,7 @@ function About() {
                     <hr />
                     <p>
                         Before my devotion to computer programming,
-                        I did years of professional work in hospitality industry where 
+                        I did years of professional work in the hospitality industry where 
                         I’ve picked up key skills including <strong>communication</strong>, <strong>teamwork</strong> and <strong>customer service</strong>.
                     </p>
                     <img src={teamLogo}/>
