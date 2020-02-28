@@ -1,7 +1,6 @@
 import React from "react";
 import "./projects.css";
 import ClickMe from "../images/clickMe.svg";
-import projectsLogo from "../images/projects.svg";
 
 function Projects() {
   return (
@@ -19,7 +18,7 @@ function Projects() {
               A Netflix like platform of some of my favourite TV shows, 
               built using JavaScript, ReactJs, Node, Express and MongoDB.
             </p>
-            <a href="http://kodflix-kodiri.herokuapp.com/" target="_blank"><img className="animated flash delay-2s clickMe" src={ClickMe}/></a>
+            <a href="http://kodflix-kodiri.herokuapp.com/" target="_blank"><img className="animated flash delay-2s clickMe" src={ClickMe} alt="arrow pointing down"/></a>
           </div>
         </div>
 

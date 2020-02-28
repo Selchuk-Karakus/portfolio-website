@@ -3,14 +3,14 @@
     padding-top: 10%;
     padding-left: 10%;
     letter-spacing: 2px;
-    font-size: 3rem;
+    font-size: 3.7rem;
     font-weight: 600;
     color: white;
 }
 
 .intro {
     padding-left: 10%;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color: white;
     font-weight: 400;
 }
@@ -94,5 +94,4 @@ header span.animated {
         text-align: center;
         padding-top: 45%;
     }
-    
   }

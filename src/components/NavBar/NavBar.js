@@ -6,7 +6,7 @@ import Logo from '../images/logo.svg';
 function NavBar() {
   return ( 
       <nav className="navbar navbar-navigation stroke">
-        <div className="navbar-logo"><a href="#Home"><img src={Logo}/></a></div>
+        <div className="navbar-logo"><a href="#Home"><img src={Logo} alt="company logo"/></a></div>
         <div className='separator'></div>
         <div className="navbar-navigation-items">
           <ul>

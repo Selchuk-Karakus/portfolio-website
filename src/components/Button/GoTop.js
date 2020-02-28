@@ -36,7 +36,7 @@ class GoTop extends React.Component {
     renderGoTopIcon = () => {
         if (this.state.thePosition){
             return (
-                <a class='go-top zoom'><img src={HandUp} onClick={this.scrollToTop} /></a>
+                <a className='go-top zoom'><img src={HandUp} onClick={this.scrollToTop} /></a>
             )
         }
     }
