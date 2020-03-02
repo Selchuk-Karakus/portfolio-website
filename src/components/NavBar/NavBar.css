@@ -104,3 +104,7 @@ nav.fill ul li a:hover:after {
 	}
 }
 
+.navbar--hidden {
+	top: -0px;
+  }
+

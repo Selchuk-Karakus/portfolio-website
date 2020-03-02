@@ -16,7 +16,7 @@ function About() {
                         I'm interested in I.T and everything it orbits! A graduate of KODIRI 
                         a bootcamp teaching <strong>Full-Stack Development</strong> focusing primarily
                         on <strong>JavaScript</strong>, <strong>React</strong>, <strong>NodeJs</strong>,
-                        <strong>ExpressJS</strong> and <strong>MongoDB</strong>.
+                        <strong> ExpressJS</strong> and <strong>MongoDB</strong>.
                     </p>
                     <img className="aboutLogo" src={jsLogo} alt="js logo"/>
                     <img className="aboutLogo" src={reactLogo} alt="react logo"/>
