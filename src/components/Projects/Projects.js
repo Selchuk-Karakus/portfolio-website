@@ -15,10 +15,16 @@ function Projects() {
           <div className="overlay">
             <h1>KodFlix</h1>
             <p>
-              A Netflix like platform of some of my favourite TV shows, 
-              built using JavaScript, ReactJs, Node, Express and MongoDB.
+              A Netflix like platform of some of my favourite TV shows, built
+              using JavaScript, ReactJs, Node, Express and MongoDB.
             </p>
-            <a href="http://kodflix-kodiri.herokuapp.com/" target="_blank"><img className="animated flash delay-2s clickMe" src={ClickMe} alt="arrow pointing down"/></a>
+            <a href="http://kodflix-kodiri.herokuapp.com/" target="_blank">
+              <img
+                className="animated flash delay-2s clickMe"
+                src={ClickMe}
+                alt="arrow pointing down"
+              />
+            </a>
           </div>
         </div>
 
@@ -31,9 +37,12 @@ function Projects() {
             <h1>Pub Crawl</h1>
             <p>
               A web-page that generates a pub crawl built with Ruby on Rails,
-              Mapbox, JavaScript and Google Place’s API done over the final two weeks of Le Wagon.
+              Mapbox, JavaScript and Google Place’s API done over the final two
+              weeks of Le Wagon.
             </p>
-            <a href="http://www.randomcheers.com/" target="_blank"><img className="animated flash delay-2s clickMe" src={ClickMe}/></a>
+            <a href="http://www.randomcheers.com/" target="_blank">
+              <img className="animated flash delay-2s clickMe" src={ClickMe} />
+            </a>
           </div>
         </div>
 
@@ -45,12 +54,15 @@ function Projects() {
           <div className="overlay">
             <h1>Robo Friends</h1>
             <p>
-              A single page application where the user can search for robot friends among all.
-              Created with HTML5, CSS3, JavaScript, React, Redux,
-              tachyons, robohash API and jsonplaceholder API.
+              A single page application where the user can search for robot
+              friends among all. Created with HTML5, CSS3, JavaScript, React,
+              Redux, tachyons, robohash API and jsonplaceholder API.
             </p>
-            <a href="https://reverent-allen-d1e546.netlify.com/" target="_blank">
-              <img className="animated flash delay-2s clickMe" src={ClickMe}/>
+            <a
+              href="https://reverent-allen-d1e546.netlify.com/"
+              target="_blank"
+            >
+              <img className="animated flash delay-2s clickMe" src={ClickMe} />
             </a>
           </div>
         </div>
@@ -63,11 +75,12 @@ function Projects() {
           <div className="overlay">
             <h1>Zappa Rentals</h1>
             <p>
-              A web-page that generates a pub crawl built with Ruby on Rails, Mapbox,
-              JavaScript and Google Place’s API done over the final two weeks of Le Wagon.
+              A web-page that generates a pub crawl built with Ruby on Rails,
+              Mapbox, JavaScript and Google Place’s API done over the final two
+              weeks of Le Wagon.
             </p>
             <a href="http://airbnb-maxlongbao.herokuapp.com/" target="_blank">
-              <img className="animated flash delay-2s clickMe" src={ClickMe}/>
+              <img className="animated flash delay-2s clickMe" src={ClickMe} />
             </a>
           </div>
         </div>
@@ -80,12 +93,14 @@ function Projects() {
           <div className="overlay">
             <h1>We-Pair</h1>
             <p>
-              An on going joint project working with four others at KODIRI. 
-              An app which brings those together who want to find someone who wants to do the same thing as them for the same purpose - learn programming 
-              or improve and develop their current programming skills by pair programming.
+              An on going joint project working with four others at KODIRI. An
+              app which brings those together who want to find someone who wants
+              to do the same thing as them for the same purpose - learn
+              programming or improve and develop their current programming
+              skills by pair programming.
             </p>
-            <a href="http://airbnb-maxlongbao.herokuapp.com/" target="_blank">
-              <img className="animated flash delay-2s clickMe" src={ClickMe}/>
+            <a href="http://we-pair.herokuapp.com/" target="_blank">
+              <img className="animated flash delay-2s clickMe" src={ClickMe} />
             </a>
           </div>
         </div>
@@ -97,11 +112,9 @@ function Projects() {
           />
           <div className="overlay">
             <h1>Analog Clock</h1>
-            <p>
-              A analog clock created using pure JavaScript.
-            </p>
+            <p>A analog clock created using pure JavaScript.</p>
             <a href="https://silly-spence-036a7d.netlify.com/" target="_blank">
-              <img className="animated flash delay-2s clickMe" src={ClickMe}/>
+              <img className="animated flash delay-2s clickMe" src={ClickMe} />
             </a>
           </div>
         </div>
