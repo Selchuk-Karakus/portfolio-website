@@ -1,16 +1,16 @@
 
 .header {
-    padding-top: 10%;
+    padding-top: 15%;
     padding-left: 10%;
-    letter-spacing: 2px;
-    font-size: 3.7rem;
+    letter-spacing: 1px;
+    font-size: 3.5rem;
     font-weight: 600;
     color: white;
 }
 
 .intro {
-    padding-left: 10%;
-    font-size: 1.7rem;
+    padding-left: 12%;
+    font-size: 1.5rem;
     color: white;
     font-weight: 400;
 }
@@ -77,8 +77,6 @@ header span.animated {
   @media only screen and (max-width: 600px) {
     .header {
         padding-top: 20%;
-        /* padding-left: 10%;
-        letter-spacing: 2px; */
         font-size: 2rem;
         font-weight: bold;
         color: white;

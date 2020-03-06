@@ -1,57 +1,56 @@
 .navbar {
-	height: 4.5rem;
-	width: 100%;
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	background-color: rgb(255, 255, 255);
-	z-index: 1;
+  height: 4.5rem;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: rgb(255, 255, 255);
+  z-index: 1;
 }
 
 .navbar-logo a {
-	color: #39B0CA;
-	text-decoration: none;
-	font-size: 3rem;
-	padding: 0 2rem;
-	font-weight: 700;
+  color: #39b0ca;
+  text-decoration: none;
+  font-size: 3rem;
+  padding: 0 2rem;
+  font-weight: 700;
 }
 
 .navbar-navigation {
-	display: flex;
-	align-items: center;
-	/* padding-right: 2rem; */
+  display: flex;
+  align-items: center;
+  /* padding-right: 2rem; */
 }
 
 .navbar-navigation-items a {
-	color: #39B0CA;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-weight: bold;
-
+  color: #39b0ca;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .navbar-navigation-items a:hover,
 .navbar-navigation-items a:active {
-	border-bottom: 1px solid #39B0CA;
-	padding-bottom: 28px;
-	transition: all 1s;
-	color: gray;
+  border-bottom: 1px solid #39b0ca;
+  padding-bottom: 28px;
+  transition: all 1s;
+  color: gray;
 }
 
 .navbar-navigation-items ul {
-	list-style-type: none;
-	margin: 0px;
-	padding: 0px;
-	font-size: 1rem;
-	display: flex;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  font-size: 1rem;
+  display: flex;
 }
 
 .navbar-navigation-items ul li {
-	padding: 0 1rem;
+  padding: 0 1rem;
 }
 
 .separator {
-	flex: 1;
+  flex: 1;
 }
 /* stroke */
 nav.stroke ul li a,
@@ -66,7 +65,7 @@ nav.fill ul li a:after {
   right: 0;
   margin: auto;
   width: 0%;
-  content: '.';
+  content: ".";
   color: transparent;
   background: #aaa;
   height: 1px;
@@ -81,7 +80,7 @@ nav.fill ul li a {
 
 nav.fill ul li a:after {
   text-align: left;
-  content: '.';
+  content: ".";
   margin: 0;
   opacity: 0;
 }
@@ -98,13 +97,7 @@ nav.fill ul li a:hover:after {
 }
 
 @media only screen and (max-width: 600px) {
-
-.navbar-navigation-items li {
-		display: none;
-	}
-}
-
-.navbar--hidden {
-	top: -0px;
+  .navbar {
+    display: none;
   }
-
+}

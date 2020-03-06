@@ -17,7 +17,7 @@ section > p {
 }
 
 h1 {
-    color: rgb(147, 147, 147);
+    color: rgb(11, 10, 10);
 }
 
 hr {
@@ -30,4 +30,11 @@ hr {
 .aboutLogo {
     padding: 0 10px;
 }
+
+@media only screen and (max-width: 600px) {
+    section > p {
+        line-height: 40px;
+        padding: 30px 50px;
+    }
+  }
 

@@ -11,7 +11,9 @@ function Header() {
                Portfolio of a Software Developer | London-based</p>
           </div>
           <div className="scroll-down animated bounce slower infinite">
-            <img src={ScrollDown} alt="arrow pointing down"/>
+            <a href="#About"> 
+              <img src={ScrollDown} alt="arrow pointing down"/>
+            </a>
           </div>
     </header>
   );
