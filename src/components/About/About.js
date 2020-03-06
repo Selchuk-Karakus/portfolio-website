@@ -13,10 +13,15 @@ function About() {
                 <h1>About Me</h1>
                 <section>
                     <p>
-                        I'm interested in I.T and everything it orbits! A graduate of KODIRI 
-                        a bootcamp teaching <strong>Full-Stack Development</strong> focusing primarily
+                        I'm interested in I.T and everything it orbits! An aspiring 
+                        <strong> Software Developer</strong> focusing primarily
                         on <strong>JavaScript</strong>, <strong>React</strong>, <strong>NodeJs</strong>,
-                        <strong> ExpressJS</strong> and <strong>MongoDB</strong>.
+                        <strong> ExpressJS</strong> and <strong>MongoDB</strong>. And, besides "CODE", I cant 
+                        think of anything better than being outdoors or travelling.  People interest me,
+                        getting to know people and spending time to understand other cultures and their customs
+                        make me feel good.  I also enjoy drinking scotch and anything that tastes like it, reading
+                         books and listening to 60's and 70's rock makes me feel alive.
+                        And, of course struming a guitar.
                     </p>
                     <img className="aboutLogo" src={jsLogo} alt="js logo"/>
                     <img className="aboutLogo" src={reactLogo} alt="react logo"/>
