@@ -50,6 +50,7 @@
 .overlay :first-child {
         text-align: center;
         padding-top: 50px;
+        color: white;
 }
 
 .clickMe {
