@@ -1,10 +1,10 @@
 import React from 'react';
 import './About.css';
-import jsLogo from '../images/js.svg';
-import computerLogo from '../images/computer.svg';
-import teamLogo from '../images/team.svg';
-import transferLogo from '../images/transfer.svg';
-import reactLogo from '../images/react.svg';
+import jsLogo from '../../assets/images/js.svg';
+import computerLogo from '../../assets/images/computer.svg';
+import teamLogo from '../../assets/images/team.svg';
+import transferLogo from '../../assets/images/transfer.svg';
+import reactLogo from '../../assets/images/react.svg';
 
 function About() {
     return (

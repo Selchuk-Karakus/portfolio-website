@@ -1,6 +1,6 @@
 import React from 'react';
 import './GoTop.css'
-import HandUp from '../images/handUp.svg'
+import HandUp from '../../assets/images/handUp.svg'
 
 class GoTop extends React.Component {
     state = {

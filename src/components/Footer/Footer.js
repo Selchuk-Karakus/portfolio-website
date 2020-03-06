@@ -1,8 +1,8 @@
 import React from 'react';
-import GmailLogo from '../images/gmail.svg';
-import TwitterLogo from '../images/twitter.svg';
-import GithubLogo from '../images/github.svg';
-import LinkedIn from '../images/linkedin.svg';
+import GmailLogo from '../../assets/images/gmail.svg';
+import TwitterLogo from '../../assets//images/twitter.svg';
+import GithubLogo from '../../assets/images/github.svg';
+import LinkedIn from '../../assets/images/linkedin.svg';
 import './Footer.css';
 
 function Footer() {
