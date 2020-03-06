@@ -16,10 +16,6 @@ footer > ul {
     padding: 5px 0;
 }
 
-/* li {
-    /* padding: 10px 10px; */
-/* } */ 
-
 a {
     text-decoration: none;
     color: rgb(147, 147, 147);
@@ -38,5 +34,5 @@ a {
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
 small {
-    padding: 10px;
+    padding: 0px 15px 20px 15px;
 }
