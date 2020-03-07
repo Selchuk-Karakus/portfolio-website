@@ -1,16 +1,17 @@
 import React from "react";
 import "./projects.css";
 import ClickMe from "../../assets/images/clickMe.svg";
+import './projectsData'
+import projectsData from "./projectsData";
 
-function Projects({projectList}) {
-  console.log(projectList);
+function Projects() {
   return (
     <div id="Projects" className="Projects">
       <h1>My Projects</h1>
       <section className="project-container">
-        {projectList.map((project, index) => (
+        {projectsData.map((project, index) => (
           <div key={index} className="item">
-            <img src={project.imgUrl} alt="logo of kodflix" />
+            <img src={project.imgUrl} alt="logo of project" />
             <div className="overlay">
               <h1>{project.tittle}</h1>
               <p>{project.description}</p>

@@ -29,6 +29,7 @@
 .scroll-down {
     text-align: center;
     padding-top: 15%;
+    display: visible;
 }
 
 header span.animated {
