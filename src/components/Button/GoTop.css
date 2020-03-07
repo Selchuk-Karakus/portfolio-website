@@ -1,11 +1,11 @@
 .go-top {
     position: fixed;
     cursor: pointer;
-    bottom: 48px;
+    bottom: 160px;
     right: 0;
     color: #ffffff;
     z-index: 1;
-    width: 85px;
+    width: 70px;
     text-align: center;
     height: 55px;
     border-radius: 10px 0 0 10px;
@@ -16,6 +16,6 @@
 
 @media only screen and (max-width: 600px) {
     .go-top {
-   bottom: 269px
+   bottom: 300px
   }
 }

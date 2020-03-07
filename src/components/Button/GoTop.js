@@ -1,6 +1,6 @@
 import React from 'react';
 import './GoTop.css'
-import HandUp from '../../assets/images/handUp.svg'
+import GoTopLogo from '../../assets/images/goTop.svg'
 
 class GoTop extends React.Component {
     state = {
@@ -36,7 +36,7 @@ class GoTop extends React.Component {
     renderGoTopIcon = () => {
         if (this.state.thePosition){
             return (
-                <a className='go-top zoom'><img src={HandUp} onClick={this.scrollToTop} /></a>
+                <span className='go-top zoom'><img src={GoTopLogo} onClick={this.scrollToTop} /></span>
             )
         }
     }
