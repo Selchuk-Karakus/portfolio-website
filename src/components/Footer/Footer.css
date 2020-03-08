@@ -1,6 +1,6 @@
 footer {
     background-color:rgb(255, 255, 255);
-    padding-top: 30px;
+    padding: 50px 5px 10px 5px;
 }
 
 footer > h1, p {
@@ -33,9 +33,6 @@ a {
   .zoom:hover {
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
-small {
-    padding: 0px 15px 20px 15px;
-}
 
 @media only screen and (max-width: 600px) {
     .zoom {

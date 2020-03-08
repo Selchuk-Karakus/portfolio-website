@@ -17,7 +17,7 @@ function Projects({ project }) {
               <p>{project.description}</p>
               <a href={project.linkUrl} target="_blank">
                 <img
-                  className="animated flash delay-2s clickMe"
+                  className="animated pulse delay-1s clickMe"
                   src={ClickMe}
                   alt="arrow pointing down"
                 />

@@ -2,10 +2,18 @@ import React from "react";
 import "./NavBar.css";
 import Logo from '../../assets/images/logo.svg';
 
+const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+const scrolled = window.scrollY;
+console.log('hello')
+class NavBar extends React.Component {
 
-function NavBar() {
+  handleOnScroll(){
+   
+  }
+
+  render () {
   return ( 
-      <nav className="navbar navbar-navigation stroke">
+      <nav onScroll={this.handleOnScroll} className="navbar navbar-navigation stroke">
         <div className="navbar-logo"><a href="#Home"><img src={Logo} alt="company logo"/></a></div>
         <div className='separator'></div>
         <div className="navbar-navigation-items">
@@ -17,6 +25,7 @@ function NavBar() {
         </div>
       </nav>
   );
+  }
 }
 
 export default NavBar;
