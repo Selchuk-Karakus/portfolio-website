@@ -14,7 +14,7 @@ function Projects() {
             <div className="overlay">
               <h1>{project.tittle}</h1>
               <p>{project.description}</p>
-              <a href={project.linkUrl} target="_blank">
+              <a href={project.linkUrl} target="_blank" rel="noopener noreferrer">
                 <img
                   className="animated pulse delay-1s clickMe"
                   src={ClickMe}

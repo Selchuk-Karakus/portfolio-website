@@ -18,22 +18,23 @@ function Footer() {
           <a
             href="https://www.linkedin.com/in/selchuk-karakus/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <img src={LinkedIn} alt="linkedin logo" />
           </a>
         </li>
         <li className="zoom">
-          <a href="https://github.com/Selchuck" target="_blank">
+          <a href="https://github.com/Selchuck" target="_blank" rel="noopener noreferrer">
             <img src={GithubLogo} alt="github logo" />
           </a>
         </li>
         <li className="zoom">
-          <a href="https://twitter.com/KarakusSelchuk" target="_blank">
+          <a href="https://twitter.com/KarakusSelchuk" target="_blank" rel="noopener noreferrer">
             <img src={TwitterLogo} alt="twitter logo" />
           </a>
         </li>
         <li className="zoom">
-          <a href="mailto:selchuk.karakus@gmail.com" target="_blank">
+          <a href="mailto:selchuk.karakus@gmail.com" target="_blank" rel="noopener noreferrer">
             <img src={GmailLogo} alt="gmail logo" />
           </a>
         </li>
