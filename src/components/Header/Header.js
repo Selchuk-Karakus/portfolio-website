@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css";
+import "./header.css";
 import ScrollDown from "../../assets/images/scrollDown.svg";
 
 function Header() {

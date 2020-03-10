@@ -1,5 +1,5 @@
 import React from 'react';
-import './GoTop.css'
+import './goTop.css'
 import GoTopLogo from '../../assets/images/goTop.svg'
 
 class GoTop extends React.Component {

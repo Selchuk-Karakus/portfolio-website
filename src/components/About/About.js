@@ -1,5 +1,5 @@
 import React from 'react';
-import './About.css';
+import './about.css';
 import jsLogo from '../../assets/images/js.svg';
 import computerLogo from '../../assets/images/computer.svg';
 import teamLogo from '../../assets/images/team.svg';

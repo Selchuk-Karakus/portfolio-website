@@ -1,10 +1,9 @@
 import React from "react";
 import "./projects.css";
 import ClickMe from "../../assets/images/clickMe.svg";
-import "./projectsData";
 import projectsData from "./projectsData";
 
-function Projects({ project }) {
+function Projects() {
   return (
     <div id="Projects" className="Projects">
       <h1>My Projects</h1>
