@@ -5,7 +5,7 @@ import Logo from '../../assets/images/logo.svg';
 class NavBar extends React.Component {
   render () {
   return ( 
-      <nav onScroll={this.handleOnScroll} className="navbar navbar-navigation stroke">
+      <nav className="navbar navbar-navigation stroke">
         <div className="navbar-logo"><a href="#Home"><img src={Logo} alt="company logo"/></a></div>
         <div className='separator'></div>
         <div className="navbar-navigation-items">
