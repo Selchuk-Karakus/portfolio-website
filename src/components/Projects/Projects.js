@@ -8,8 +8,8 @@ function Projects() {
     <div id="Projects" className="Projects">
       <h1>My Projects</h1>
       <section className="project-container">
-        {projectsData.map(project => (
-          <div key={projectsData.tittle} className="item">
+        {projectsData.map((project, index) => (
+          <div key={index} className="item">
             <img src={project.imgUrl} alt="logo of project" />
             <div className="overlay">
               <h1>{project.tittle}</h1>
