@@ -25,6 +25,12 @@ const About = () => {
             to 60's and 70's rock makes me feel alive. And, of course struming a
             guitar.
           </p>
+          <p>
+            I'm super keen to delve into Redux and TypeScript next, and
+            hope to incorporate these into future projects. I have a real passion
+            for code and hope to bridge my developer-designer sides in
+            the future and transform my self into a Full-Stack Developer.
+          </p>
           <img className="aboutLogo" src={jsLogo} alt="js logo" />
           <img className="aboutLogo" src={reactLogo} alt="react logo" />
           <hr />
@@ -55,6 +61,6 @@ const About = () => {
       </main>
     </div>
   );
-}
+};
 
 export default About;
