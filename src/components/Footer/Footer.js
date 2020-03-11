@@ -10,8 +10,9 @@ const Footer = () => {
     <footer id="Contacts" className="Footer">
       <h1>Get In Touch</h1>
       <p>
-        Let's grab a drink to find out if I can be of any help to you. Please
-        don't hesitate to contact me by email. Or reach out to me on LinkedIn.
+        I'm known particularly for my sunny smile and friendly personality and
+        love collaborative working; drop me a line if you fancy a chat. I'm
+        currently looking for Software Developer opportunities in and around London.
       </p>
       <ul>
         <li className="zoom">
@@ -24,17 +25,29 @@ const Footer = () => {
           </a>
         </li>
         <li className="zoom">
-          <a href="https://github.com/Selchuck" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/Selchuck"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={GithubLogo} alt="github logo" />
           </a>
         </li>
         <li className="zoom">
-          <a href="https://twitter.com/KarakusSelchuk" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://twitter.com/KarakusSelchuk"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={TwitterLogo} alt="twitter logo" />
           </a>
         </li>
         <li className="zoom">
-          <a href="mailto:selchuk.karakus@gmail.com" target="_blank" rel="noopener noreferrer">
+          <a
+            href="mailto:selchuk.karakus@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={GmailLogo} alt="gmail logo" />
           </a>
         </li>
@@ -44,6 +57,6 @@ const Footer = () => {
       </small>
     </footer>
   );
-}
+};
 
 export default Footer;
