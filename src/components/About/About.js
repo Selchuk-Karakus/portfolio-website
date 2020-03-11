@@ -6,7 +6,7 @@ import teamLogo from "../../assets/images/team.svg";
 import transferLogo from "../../assets/images/transfer.svg";
 import reactLogo from "../../assets/images/react.svg";
 
-function About() {
+const About = () => {
   return (
     <div id="About">
       <main className="About">

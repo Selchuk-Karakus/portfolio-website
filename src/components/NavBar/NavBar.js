@@ -2,8 +2,7 @@ import React from "react";
 import "./navBar.css";
 import Logo from '../../assets/images/logo.svg';
 
-class NavBar extends React.Component {
-  render () {
+const NavBar = () => {
   return ( 
       <nav className="navbar navbar-navigation stroke">
         <div className="navbar-logo"><a href="#Home"><img src={Logo} alt="company logo"/></a></div>
@@ -17,7 +16,7 @@ class NavBar extends React.Component {
         </div>
       </nav>
   );
-  }
+
 }
 
 export default NavBar;

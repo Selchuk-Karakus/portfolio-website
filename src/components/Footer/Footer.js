@@ -5,7 +5,7 @@ import GithubLogo from "../../assets/images/github.svg";
 import LinkedIn from "../../assets/images/linkedin.svg";
 import "./footer.css";
 
-function Footer() {
+const Footer = () => {
   return (
     <footer id="Contacts" className="Footer">
       <h1>Get In Touch</h1>

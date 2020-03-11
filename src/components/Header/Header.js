@@ -2,7 +2,7 @@ import React from "react";
 import "./header.css";
 import ScrollDown from "../../assets/images/scrollDown.svg";
 
-function Header() {
+const Header = () => {
   return (
     <header id="Home" className="container">
       <h1 className="header">Selchuk Karakus</h1>

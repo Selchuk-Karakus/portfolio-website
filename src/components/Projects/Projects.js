@@ -3,7 +3,7 @@ import "./projects.css";
 import ClickMe from "../../assets/images/clickMe.svg";
 import projectsData from "./projectsData";
 
-function Projects() {
+const Projects = () => {
   return (
     <div id="Projects" className="Projects">
       <h1>My Projects</h1>
