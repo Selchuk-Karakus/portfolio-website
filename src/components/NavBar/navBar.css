@@ -97,7 +97,24 @@ nav.fill ul li a:hover:after {
 }
 
 @media only screen and (max-width: 600px) {
-  .navbar {
-    display: none;
+  .navbar-navigation-items a {
+    color: #39b0ca;
+    text-decoration: none;
+    font-weight: bold;
   }
+
+  .navbar-navigation-items ul li {
+    padding: 0.5rem;
+  }
+  .navbar-logo {
+    margin-left: -20px;
+  }
+
+  .navbar-navigation-items ul {
+    font-size: 0.7rem;
+  }
+
+  .header {
+    padding-top: 30%;
+}
 }
