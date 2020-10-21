@@ -1,5 +1,12 @@
 const projectsData = [
   {
+    tittle: "Zepfferson Clothin",
+    imgUrl:
+      "https://images.unsplash.com/photo-1472851294608-062f824d29cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+    linkUrl: "https://zepfferson-live.herokuapp.com/",
+    description: "An e-commerce app where the user can subscribe, shop and buy goods.  Created with HTML5, CSS3, JavaScript, React and Redux."
+  },
+  {
     tittle: "KodFlix",
     imgUrl:
       "https://images.unsplash.com/photo-1515634928627-2a4e0dae3ddf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
@@ -29,7 +36,7 @@ const projectsData = [
       "https://images.unsplash.com/photo-1482442120256-9c03866de390?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
     linkUrl: "http://airbnb-maxlongbao.herokuapp.com/",
     description:
-      "A web-page that generates a pub crawl built with Ruby on Rails,Mapbox, JavaScript and Google Place’s API done over the final two weeks of Le Wagon."
+      "An Air-BnB-style platform for loaning and renting musical instruments.  App implemented searching and geocoding in Ruby on Rails"
   },
   {
     tittle: "We-Pair",
@@ -39,13 +46,6 @@ const projectsData = [
     description:
       "An on going joint project working with four others at KODIRI. Anapp which brings those together who want to find someone who wants to do the same thing as them for the same purpose - learn programming or improve and develop their current programming skills by pair programming."
   },
-  {
-    tittle: "Analog Clock",
-    imgUrl:
-      "https://images.unsplash.com/photo-1495364141860-b0d03eccd065?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-    linkUrl: "https://silly-spence-036a7d.netlify.com/",
-    description: "A analog clock created using pure JavaScript"
-  }
 ];
 
 export default projectsData;
