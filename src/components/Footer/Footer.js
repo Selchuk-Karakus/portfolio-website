@@ -10,9 +10,8 @@ const Footer = () => {
     <footer id="Contacts" className="Footer">
       <h1>Get In Touch</h1>
       <p>
-        I'm known particularly for my sunny smile and friendly personality and
-        love collaborative working; drop me a line if you fancy a chat. I'm
-        currently looking for Software Developer opportunities in and around London.
+        If you're interested working with me or want more information about my work I'd love to hear from you. I'm
+        currently looking for Front-end Developer opportunities in and around London.
       </p>
       <ul>
         <li className="zoom">
