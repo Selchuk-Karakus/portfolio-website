@@ -1,10 +1,10 @@
 import React from "react";
 import "./about.css";
 import jsLogo from "../../assets/images/js.svg";
-import computerLogo from "../../assets/images/computer.svg";
-import teamLogo from "../../assets/images/team.svg";
-import transferLogo from "../../assets/images/transfer.svg";
+import cssLogo from "../../assets/images/css.svg";
+import reduxLogo from "../../assets/images/redux.svg";
 import reactLogo from "../../assets/images/react.svg";
+import htmlLogo from "../../assets/images/html5.svg";
 
 const About = () => {
   return (
@@ -13,50 +13,39 @@ const About = () => {
         <h1>About Me</h1>
         <section>
           <p>
-            I'm interested in I.T and everything it orbits! An aspiring
-            <strong> Software Developer</strong> focusing primarily on{" "}
-            <strong>JavaScript</strong>, <strong>React</strong>,{" "}
-            <strong>NodeJs</strong>,<strong> ExpressJS</strong> and{" "}
-            <strong>MongoDB</strong>. And, besides "CODE", I cant think of
-            anything better than being outdoors or travelling. People interest
-            me, getting to know people and spending time to understand other
-            cultures and their customs make me feel good. I also enjoy drinking
-            scotch and anything that tastes like it, reading books and listening
-            to 60's and 70's rock makes me feel alive. And, of course struming a
-            guitar.
-          </p>
-          <p>
-            I'm super keen to delve into Redux and TypeScript next, and
-            hope to incorporate these into future projects. I have a real passion
+            I'm interested in I.T and everything it orbits! I'm a 
+            <strong> Front-end Developer</strong> focusing primarily on{" "}
+            <strong>HTML5</strong>, <strong>CSS</strong>,{" "}
+            <strong>JavaScript</strong>, <strong>React</strong>,{" "}and{" "}
+            <strong>Redux</strong>. I have a real passion
             for code and hope to bridge my developer-designer sides in
-            the future and transform my self into a Full-Stack Developer.
+            the future and transform my self into a Full-Stack Developer. 
           </p>
+          <img className="aboutLogo" src={htmlLogo} alt="html5 logo" />
+          <img className="aboutLogo" src={cssLogo} alt="css logo" />
           <img className="aboutLogo" src={jsLogo} alt="js logo" />
           <img className="aboutLogo" src={reactLogo} alt="react logo" />
+          <img className="aboutLogo" src={reduxLogo} alt="redux logo" />
           <hr />
           <p>
-            Before my devotion to computer programming, I did years of
+            Before my devotion to writing code, I did years of
             professional work in the hospitality industry where I’ve picked up
             key skills including <strong>communication</strong>,{" "}
             <strong>teamwork</strong> and <strong>customer service</strong>.
           </p>
-          <img src={teamLogo} alt="team logo" />
           <hr />
           <p>
             I'm now exploring various roles in software development looking to
-            make tech industry a home.
+            brake into the tech industry.
           </p>
-          <img src={computerLogo} alt="computer logo" />
           <hr />
           <p>
             As a career changer I believe I am abnormally driven with a
             frightening big appetite, and I'm looking forward to strengthening
             my development skills in a team environment, while bringing what
             skills I have to the table. Can't wait to build exciting, elegant
-            and <strong>responsive</strong> website's and applications and
-            differ!
+            and <strong>responsive</strong> website's and applications!
           </p>
-          <img src={transferLogo} alt="transfer logo" />
         </section>
       </main>
     </div>
