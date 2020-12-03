@@ -11,7 +11,7 @@ const Header = () => {
           Website & Portfolio of a Software Developer | London-based
         </p>
       </div>
-      <div className="scroll-down animated bounce slower infinite">
+      <div className="scroll-down animated flash slower infinite">
         <a href="#About">
           <img src={ScrollDown} alt="arrow pointing down" />
         </a>

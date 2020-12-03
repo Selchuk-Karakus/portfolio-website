@@ -15,11 +15,14 @@ const Projects = () => {
               <h1>{project.tittle}</h1>
               <p>{project.description}</p>
               <a href={project.linkUrl} target="_blank" rel="noopener noreferrer">
-                <img
-                  className="animated pulse delay-1s clickMe"
+                <p>
+                  <img
+                  className="animated pulse delay-2s clickMe"
                   src={ClickMe}
                   alt="arrow pointing down"
-                />
+                  />
+                  View Project
+                </p>
               </a>
             </div>
           </div>
