@@ -1,96 +1,101 @@
-
+:root {
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 5%, 4%);
+  --turquoise: rgb(57 176 202);
+}
 .header {
-    padding-top: 15%;
-    padding-left: 10%;
-    letter-spacing: 1.5px;
-    font-size: 3.5rem;
-    font-weight: 600;
-    color: white;
+  padding-top: 15%;
+  padding-left: 10%;
+  letter-spacing: 1.5px;
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: var(--white);
 }
 
 .intro {
-    padding-left: 12%;
-    font-size: 1.5rem;
-    color: white;
-    font-weight: 500;
+  padding-left: 12%;
+  font-size: 1.3rem;
+  color: var(--white);
+  font-weight: 500;
 }
 
 .container {
-    width: 100%;
-    height: 100vh;
-    background-image: url('../../assets/images/bubbles.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-  }
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/images/bubbles.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
 
 .scroll-down {
-    text-align: center;
-    padding-top: 15%;
-    display: visible;
+  text-align: center;
+  padding-top: 15%;
+  display: visible;
 }
 
 header span.animated {
-    position: absolute;
-    margin: auto;
-    right: 0;
-    left: 0;
-    bottom: 50px;
-    height: 4px;
-    width: 4px;
-    border-radius: 2px;
-    background: #fff;
-    animation-duration: 2.5s;
-    animation-iteration-count: infinite;
-  }
-  
-  header span::before,
-  header span::after {
-    position: absolute;
-    top: -23px;
-    content: "";
-    height: 30px;
-    width: 4px;
-    border-radius: 2px;
-    background: #fff;
-  }
-  
-  header span::before {
-    left: -10px;
-    -webkit-transform: rotate(-45deg);
-    -moz-transform:    rotate(-45deg);
-    -ms-transform:     rotate(-45deg);
-    -o-transform:      rotate(-45deg);
-    transform:         rotate(-45deg);
-  }
-  
-  header span::after {
-    right: -10px;
-    -webkit-transform: rotate(45deg);
-    -moz-transform:    rotate(45deg);
-    -ms-transform:     rotate(45deg);
-    -o-transform:      rotate(45deg);
-    transform:         rotate(45deg);
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  bottom: 50px;
+  height: 4px;
+  width: 4px;
+  border-radius: 2px;
+  background: var(--white);
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+
+header span::before,
+header span::after {
+  position: absolute;
+  top: -23px;
+  content: "";
+  height: 30px;
+  width: 4px;
+  border-radius: 2px;
+  background: var(--white);
+}
+
+header span::before {
+  left: -10px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+header span::after {
+  right: -10px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    margin-top: 90px;
+    padding-top: 20%;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--black);
   }
 
-  @media only screen and (max-width: 600px) {
-    .header {
-        padding-top: 20%;
-        font-size: 2rem;
-        font-weight: bold;
-        color: white;
-    }
-
-    .intro {
-        padding-left: 0%;
-        font-size: 1.1rem;
-        color: white;
-    }
-
-    .scroll-down {
-        text-align: center;
-        padding-top: 45%;
-    }
+  .intro {
+    margin-top: 30px;
+    padding-left: 10%;
+    font-size: 0.7rem;
+    color: var(--black);
   }
+
+  .scroll-down {
+    display: none;
+  }
+}
