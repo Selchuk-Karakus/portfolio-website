@@ -8,15 +8,15 @@
   padding-left: 10%;
   letter-spacing: 1.5px;
   font-size: 3.5rem;
-  font-weight: 600;
+  font-weight: 800;
   color: var(--white);
 }
 
 .intro {
-  padding-left: 12%;
+  padding-left: 25%;
   font-size: 1.3rem;
   color: var(--white);
-  font-weight: 500;
+  font-weight: 900;
 }
 
 .container {
