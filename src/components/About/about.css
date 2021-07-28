@@ -1,6 +1,14 @@
+:root {
+    --white:  hsl(0, 0%, 100%);
+    --black:  hsl(0, 5%, 4%);
+    --turquoise: rgb(57 176 202);
+}
+
 .About {
-    background-color: rgb(255, 255, 255);
+    background-color: var(--white);
     text-align: center;
+    margin: auto;
+    width: 60vw;
 }
 
 .About > h1 {
@@ -12,23 +20,28 @@
 }
 
 section > p {
-    line-height: 40px;
+    line-height: 25px;
     padding: 30px 110px;
 }
 
 h1 {
-    color: rgb(11, 10, 10);
+    color: var(--black);
+}
+
+hr + h2 {
+    color: var(--turquoise);
+    font-size: 32px;
 }
 
 hr {
-    width: 50%;
-    border: 0;
-    height: 1px;
+    width: 70%;
+    border: 10px;
+    height: 25px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 .aboutLogo {
-    padding: 0 10px;
+    padding: 15px 15px;
 }
 
 @media only screen and (max-width: 600px) {
