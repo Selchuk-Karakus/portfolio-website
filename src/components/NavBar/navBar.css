@@ -96,6 +96,18 @@ nav.fill ul li a:hover:after {
   opacity: 1;
 }
 
+.navBarMobile {
+  display: none;
+}
+
+.hamburgerMenu {
+  size: 40px;
+  color: #39b0ca;
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 600px) {
   .navbar-navigation-items a {
     color: #39b0ca;
@@ -116,5 +128,32 @@ nav.fill ul li a:hover:after {
 
   .header {
     padding-top: 30%;
-}
+  }
+  .navBarDeskTop {
+    display: none;
+  }
+
+  .navBarMobile {
+    display: flex;
+    align-items: center;
+    background-color: red;
+  }
+
+  .navbar-navigation-items ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 73px;
+    right: 0;
+    width: 100%;
+    background-color: white;
+  }
+
+  .navbar-navigation-items a:hover,
+  .navbar-navigation-items a:active {
+    border-bottom: 1px solid #39b0ca;
+    padding-bottom: 1px;
+    transition: all 1s;
+    color: gray;
+  }
 }
