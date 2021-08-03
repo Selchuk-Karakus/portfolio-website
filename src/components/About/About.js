@@ -52,7 +52,7 @@ const About = () => {
             I have no regrets about leaving hospitality and pursuing my ambition
             to be a software developer, in a sector driven by life long
             education model where curiosity and creativity are nurtured and
-            rewarded was a breath of fresh air.
+            rewarded is a breath of fresh air.
             <br />
             <br />
             It is this cycle of transparent knowledge sharing that made me feel
