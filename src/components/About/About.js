@@ -1,10 +1,10 @@
 import React from "react";
 import "./about.css";
-import jsLogo from "../../assets/images/js.svg";
-import cssLogo from "../../assets/images/css.svg";
-import reduxLogo from "../../assets/images/redux.svg";
-import reactLogo from "../../assets/images/react.svg";
-import htmlLogo from "../../assets/images/html5.svg";
+import { AiOutlineHtml5 } from "react-icons/ai";
+import { RiCss3Fill } from "react-icons/ri";
+import { IoLogoJavascript } from "react-icons/io";
+import { FaReact } from "react-icons/fa";
+import { SiRedux } from "react-icons/si";
 
 const About = () => {
   return (
@@ -58,15 +58,20 @@ const About = () => {
             It is this cycle of transparent knowledge sharing that made me feel
             at home in the tech world, and I'd love to join a company that
             values this.
-            <hr />
-            <h2>Tech Stack</h2>
-            <img className="aboutLogo" src={htmlLogo} alt="html5 logo" />
-            <img className="aboutLogo" src={cssLogo} alt="css logo" />
-            <img className="aboutLogo" src={jsLogo} alt="js logo" />
-            <img className="aboutLogo" src={reactLogo} alt="react logo" />
-            <img className="aboutLogo" src={reduxLogo} alt="redux logo" />
-            <hr />
           </p>
+
+          <div className="tech-stack">
+            <h2>Tech Stack</h2>
+            <AiOutlineHtml5
+              size="70px"
+              className="aboutLogo"
+              alt="html5 logo"
+            />
+            <RiCss3Fill size="70px" className="aboutLogo" alt="css logo" />
+            <IoLogoJavascript size="70px" className="aboutLogo" alt="js logo" />
+            <FaReact size="70px" className="aboutLogo" alt="react logo" />
+            <SiRedux size="70px" className="aboutLogo" alt="redux logo" />
+          </div>
         </section>
       </main>
     </div>
