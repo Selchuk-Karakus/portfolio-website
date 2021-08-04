@@ -35,7 +35,7 @@ h1 {
 }
 
 .aboutLogo {
-  padding: 15px 30px;
+  padding: 15px 20px;
   color: var(--turquoise);
   margin-bottom: 50px;
 }
@@ -58,5 +58,9 @@ h1 {
     text-align: center;
     margin: auto;
     width: 80vw;
+  }
+
+  .aboutLogo {
+    padding: 10px 10px;
   }
 }

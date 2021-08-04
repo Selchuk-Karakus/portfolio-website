@@ -5,6 +5,10 @@ import { RiCss3Fill } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
+import { SiNodeDotJs } from "react-icons/si";
+import { FiGithub } from "react-icons/fi";
+import { FaGit } from "react-icons/fa";
+import { SiVisualstudiocode } from "react-icons/si";
 
 const About = () => {
   return (
@@ -71,6 +75,10 @@ const About = () => {
             <IoLogoJavascript size="70px" className="aboutLogo" alt="js logo" />
             <FaReact size="70px" className="aboutLogo" alt="react logo" />
             <SiRedux size="70px" className="aboutLogo" alt="redux logo" />
+            <SiNodeDotJs size="70px" className="aboutLogo"/>
+            <FiGithub size="70px" className="aboutLogo"/>
+            <FaGit size="70px" className="aboutLogo"/>
+            <SiVisualstudiocode size="70px" className="aboutLogo"/>
           </div>
         </section>
       </main>
