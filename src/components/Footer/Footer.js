@@ -25,7 +25,7 @@ const Footer = () => {
         </li>
         <li className="zoom">
           <a
-            href="https://github.com/Selchuck"
+            href="https://github.com/Selchuk-Karakus"
             target="_blank"
             rel="noopener noreferrer"
           >
