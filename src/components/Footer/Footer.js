@@ -11,7 +11,7 @@ const Footer = () => {
       <h1>Get In Touch</h1>
       <p>
         If you're interested working with me or want more information about my work I'd love to hear from you. I'm
-        currently looking for Front-end Developer opportunities in and around London.
+        currently looking for Full Stack Developer opportunities in and around London.
       </p>
       <ul>
         <li className="zoom">

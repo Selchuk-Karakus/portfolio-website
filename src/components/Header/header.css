@@ -83,7 +83,7 @@ header span::after {
   .header {
     margin-top: 90px;
     padding-top: 20%;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: bold;
     color: var(--black);
   }
@@ -91,7 +91,7 @@ header span::after {
   .intro {
     margin-top: 30px;
     padding-left: 10%;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     color: var(--black);
   }
 

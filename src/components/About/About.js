@@ -34,7 +34,7 @@ const About = () => {
             <br />
             After the completion of the course at Le Wagon, I spent roughly 3
             months applying to jobs. And with no job offers on the table I had
-            no choice but to go back into hospitality due to financial burden.
+            no choice but to go back into hospitality due to the financial burden.
             There I was - feeding people once again. But I hadn't given up just
             yet. I would go back and study coding as soon as I had saved up some
             money.
@@ -49,14 +49,12 @@ const About = () => {
             <br />
             <br />
             Throughout the journey I have gained valuable skills which I hope
-            will transform me into a<strong> JavaScript Developer</strong>{" "}
-            focusing primarily on <strong>HTML5</strong>, <strong>CSS</strong>,{" "}
-            <strong>JavaScript</strong>, <strong>React</strong>, and{" "}
-            <strong>Redux</strong>. I have a real passion for code. Ultimately,
-            I have no regrets about leaving hospitality and pursuing my ambition
+            will transform me into a<strong> Full Stack JavaScript Developer</strong>.
+            I have a real passion for code. 
+            And, I have no regrets about leaving hospitality and pursuing my ambition
             to be a software developer, in a sector driven by life long
-            education model where curiosity and creativity are nurtured and
-            rewarded is a breath of fresh air.
+            education model where curiosity, creativity and problem-solving are nurtured and
+            rewarded.
             <br />
             <br />
             It is this cycle of transparent knowledge sharing that made me feel
