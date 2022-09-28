@@ -19,25 +19,25 @@ const About = () => {
           <p>
             In late December 2018, I decided to focus my efforts on teaching
             myself how to code to a professional level. This idea came about
-            coincidently taking the advice of a stranger who had dined as a
-            guest at the restaurant I was managing at the time - this is what
-            sparked my interest in programming.
+            coincidently, taking the advice of a stranger who had dined as a
+            guest at the restaurant I was managing at the time - this sparked my
+            interest in programming.
             <br />
             <br />
             It didn't take long before I realised the value of putting myself
             out there, asking loads of questions to professional developers, and
             adopting a headfirst learning approach. Less than a month later, I
             found a community with a great support network through Le Wagon, 9
-            weeks Ruby and Ruby on Rails programme where I was surrounded by
+            weeks Ruby and Ruby on Rails programme, where I was surrounded by
             self-motivated, highly driven individuals on a daily basis.
             <br />
             <br />
             After the completion of the course at Le Wagon, I spent roughly 3
             months applying to jobs. And with no job offers on the table I had
-            no choice but to go back into hospitality due to the financial burden.
-            There I was - feeding people once again. But I hadn't given up just
-            yet. I would go back and study coding as soon as I had saved up some
-            money.
+            no choice but to go back into hospitality due to the financial
+            burden. There I was - feeding people once again. But I hadn't given
+            up just yet. I would go back and study coding as soon as I had saved
+            up some money.
             <br />
             <br />
             Fast forward to January 2020, I decided to go ahead with a 8 weeks
@@ -49,17 +49,18 @@ const About = () => {
             <br />
             <br />
             Throughout the journey I have gained valuable skills which I hope
-            will transform me into a<strong> Full Stack JavaScript Developer</strong>.
-            I have a real passion for code. 
-            And, I have no regrets about leaving hospitality and pursuing my ambition
-            to be a software developer, in a sector driven by life long
-            education model where curiosity, creativity and problem-solving are nurtured and
-            rewarded.
+            will transform me into a
+            <strong> Full Stack JavaScript Developer</strong>. I have a real
+            passion for code. And, I have no regrets about leaving hospitality
+            and pursuing my ambition to be a software developer, in a sector
+            driven by life long education model where curiosity, creativity and
+            problem-solving are nurtured and rewarded.
             <br />
             <br />
-            It is this cycle of transparent knowledge sharing that made me feel
-            at home in the tech world, and I'd love to join a company that
-            values this.
+            It is this cycle of transparent knowledge sharing and the excitement
+            of never being short of learning a new skill that made me feel at
+            home in the tech world, and I'd love to join a company that values
+            this.
           </p>
 
           <div className="tech-stack">
@@ -73,10 +74,10 @@ const About = () => {
             <IoLogoJavascript size="70px" className="aboutLogo" alt="js logo" />
             <FaReact size="70px" className="aboutLogo" alt="react logo" />
             <SiRedux size="70px" className="aboutLogo" alt="redux logo" />
-            <SiNodeDotJs size="70px" className="aboutLogo"/>
-            <FiGithub size="70px" className="aboutLogo"/>
-            <FaGit size="70px" className="aboutLogo"/>
-            <SiVisualstudiocode size="70px" className="aboutLogo"/>
+            <SiNodeDotJs size="70px" className="aboutLogo" />
+            <FiGithub size="70px" className="aboutLogo" />
+            <FaGit size="70px" className="aboutLogo" />
+            <SiVisualstudiocode size="70px" className="aboutLogo" />
           </div>
         </section>
       </main>
