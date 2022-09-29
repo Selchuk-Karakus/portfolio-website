@@ -4,7 +4,6 @@ import { AiOutlineHtml5 } from "react-icons/ai";
 import { RiCss3Fill } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
-import { SiRedux } from "react-icons/si";
 import { SiNodeDotJs } from "react-icons/si";
 import { FiGithub } from "react-icons/fi";
 import { FaGit } from "react-icons/fa";
@@ -26,41 +25,36 @@ const About = () => {
             <br />
             It didn't take long before I realised the value of putting myself
             out there, asking loads of questions to professional developers, and
-            adopting a headfirst learning approach. Less than a month later, I
-            found a community with a great support network through Le Wagon, 9
-            weeks Ruby and Ruby on Rails programme, where I was surrounded by
-            self-motivated, highly driven individuals on a daily basis.
+            adopting a headfirst learning approach. Less than a year ago, I
+            found a community with a great support network through
+            CodeYourFuture, where I did an eight-month, part-time Software
+            Developer programme. I was surrounded by self-motivated, highly
+            driven co-trainees daily in a family-like environment supported by
+            volunteers from the tech industry.
             <br />
             <br />
-            After the completion of the course at Le Wagon, I spent roughly 3
-            months applying to jobs. And with no job offers on the table I had
-            no choice but to go back into hospitality due to the financial
-            burden. There I was - feeding people once again. But I hadn't given
-            up just yet. I would go back and study coding as soon as I had saved
-            up some money.
-            <br />
-            <br />
-            Fast forward to January 2020, I decided to go ahead with a 8 weeks
-            programme where I would be covering a broad range of software
-            development skills (<strong>M.E.R.N Stack</strong>) and
+            In this eight months part-time training I would be covering a broad range
+            of software development skills (<strong>P.E.R.N Stack</strong>) and
             methodologies (<strong>Agile</strong>) and put them into practice on
-            a project, day after day, week after week at Kodiri, an inclusive
-            learning environment.
+            a final team project, day after day, week after week at
+            CodeYourFuture, a family-like learning environment.
             <br />
             <br />
             Throughout the journey I have gained valuable skills which I hope
             will transform me into a
             <strong> Full Stack JavaScript Developer</strong>. I have a real
-            passion for code. And, I have no regrets about leaving hospitality
-            and pursuing my ambition to be a software developer, in a sector
-            driven by life long education model where curiosity, creativity and
-            problem-solving are nurtured and rewarded.
+            passion for code. And, I want to pursue my passion to become a
+            Software Developer in a sector driven by life extended education
+            model where curiosity, creativity and problem-solving are nurtured
+            and rewarded.
             <br />
             <br />
             It is this cycle of transparent knowledge sharing and the excitement
-            of never being short of learning a new skill that made me feel at
-            home in the tech world, and I'd love to join a company that values
-            this.
+            of never being short of learning a new skill a new way to write code
+            that made me feel at home in the CodeYourFuture community. I’m
+            interested in organisations that share my enthusiasm for developing
+            high-quality products, and that will help me grow as a developer
+            with code reviews and peer support.
           </p>
 
           <div className="tech-stack">
@@ -73,7 +67,6 @@ const About = () => {
             <RiCss3Fill size="70px" className="aboutLogo" alt="css logo" />
             <IoLogoJavascript size="70px" className="aboutLogo" alt="js logo" />
             <FaReact size="70px" className="aboutLogo" alt="react logo" />
-            <SiRedux size="70px" className="aboutLogo" alt="redux logo" />
             <SiNodeDotJs size="70px" className="aboutLogo" />
             <FiGithub size="70px" className="aboutLogo" />
             <FaGit size="70px" className="aboutLogo" />
