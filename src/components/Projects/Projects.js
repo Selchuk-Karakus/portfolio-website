@@ -13,7 +13,7 @@ const Projects = () => {
             <img src={project.imgUrl} alt="logo of project" />
             <div className="overlay">
               <h1>{project.tittle}</h1>
-              <p>{project.description}</p>
+              <p className="project-paragraph">{project.description}</p>
               <a href={project.linkUrl} target="_blank" rel="noopener noreferrer">
                 <p>
                   <img

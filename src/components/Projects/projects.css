@@ -1,68 +1,74 @@
 .Projects {
-        background-color: rgb(255, 255, 255)
+  background-color: rgb(255, 255, 255);
 }
 
 #Projects {
-        padding-top: 50px;
+  padding-top: 2rem;
 }
 
 .Projects > h1 {
-        text-align: center;
-        padding-bottom: 50px;
-        color: rgb(11, 10, 10);
+  text-align: center;
+  padding-bottom: 50px;
+  color: rgb(11, 10, 10);
+}
+
+.project-paragraph {
+  padding: 30px;
+  line-height: 30px;
+  text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
-.project-container {
-        width: 9vw;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-gap: 5px;
-        }
+  .project-container {
+    width: 9vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+  }
 }
 
 .item {
-        border: 0px 1px 0px 1px;
-        position: relative;
-        overflow: hidden;
+  border: 0px 1px 0px 1px;
+  position: relative;
+  overflow: hidden;
 }
-      
+
 .overlay {
-        transition: bottom ease 1s;
-        position: absolute;
-        bottom: -400px;
-        left: 0px;
-        color: white;
-        background-color: black;
-        width: 100%;
-        height: 100%;
-        opacity: 0.8;
+  transition: bottom ease 1s;
+  position: absolute;
+  bottom: -400px;
+  left: 0px;
+  color: white;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
 }
 
 .item:hover .overlay {
-        display: block;
-        bottom: 0;
+  display: block;
+  bottom: 0;
 }
 
 .overlay :first-child {
-        text-align: center;
-        padding-top: 50px;
-        color: white;
+  text-align: center;
+  padding-top: 50px;
+  color: white;
 }
 
 .clickMe {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 10%;
-        padding-top: 30%;
-        animation-duration: 1s;
-        animation-delay: 1s;
-        animation-iteration-count: infinite;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  padding-top: 30%;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
 }
 
 /* For mobile phones: */
 .project-container {
-        width: 100%;
+  width: 100%;
 }
