@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer id="Contacts" className="Footer">
       <h1>Get In Touch</h1>
-      <p>
+      <p class="footer-paragraph">
         If you're interested in working with me or want more information about
         my work, I'd love to hear from you. I'm currently looking for Full Stack
         Developer opportunities in and around London.
