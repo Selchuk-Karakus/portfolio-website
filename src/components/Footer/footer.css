@@ -3,7 +3,7 @@ footer {
     padding: 50px 5px 10px 5px;
 }
 
-footer > h1, p {
+footer > h1, .footer-paragraph {
     padding: 30px;
     line-height: 30px;
     text-align: center
