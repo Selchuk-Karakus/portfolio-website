@@ -29,7 +29,7 @@ const About = () => {
               and adopting a headfirst learning approach. Less than a year ago,
               I found a community with a great support network through
               CodeYourFuture, where I did an eight-month, part-time Software
-              Developer program. I was surrounded by self-motivated, highly
+              Development program. I was surrounded by self-motivated, highly
               driven co-trainees daily in a family-like environment supported by
               volunteers from the tech industry who where there to help us turn
               our dreams into reality.
@@ -55,7 +55,7 @@ const About = () => {
               excitement of never being short of learning a new skill, a new way
               to write code that made me feel at home in the CodeYourFuture
               community and I feel ready to turn this into a lifelong career -
-              I’m interested in organisations that share my enthusiasm for
+              I’m interested in organisations that share a similar enthusiasm for
               developing high-quality products and that will help me grow as a
               developer with code reviews and peer support.
             </p>
