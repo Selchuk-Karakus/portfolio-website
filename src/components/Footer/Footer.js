@@ -52,8 +52,9 @@ const Footer = () => {
           </a>
         </li>
       </ul>
-      <small>
-        &copy; Copyright 2020, Selchuk Karakus @ www.selchuk-karakus.now.sh
+      <small className="copyright">
+        &copy; Copyright 2020, Selchuk Karakus @
+        https://selchuk-karakus.vercel.app/
       </small>
     </footer>
   );
