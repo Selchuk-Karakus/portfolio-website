@@ -26,7 +26,7 @@ const projectsData = [
   {
     tittle: "Video Addict",
     imgUrl:
-      "https://images.unsplash.com/photo-1522401195795-1d580bb06720?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzJ8fHZpZGVvfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+      "https://images.unsplash.com/photo-1522401195795-1d580bb06720?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzJ8fHZpZGVvfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=950&q=60",
     linkUrl: "https://keen-boyd-ab7405.netlify.app/",
     description:
       "A web-page, which provides a search interface for finding YouTube videos based on the entered search term, and returning these videos as a detailed list. YouTube Data API demonstration. Built with React, Semantic UI and Axios library.",
@@ -40,12 +40,12 @@ const projectsData = [
       "A single page application where the user can search for robotfriends among all. Created with HTML5, CSS3, JavaScript, React, Redux, tachyons, robohash API and jsonplaceholder API.",
   },
   {
-    tittle: "Zappa Rentals",
+    tittle: "Github User Favourite Language",
     imgUrl:
-      "https://images.unsplash.com/photo-1482442120256-9c03866de390?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-    linkUrl: "http://airbnb-maxlongbao.herokuapp.com/",
+      "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZGV2ZWxvcGVyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    linkUrl: "http://egghead-s3-test.s3-website.eu-west-2.amazonaws.com/",
     description:
-      "An Air-BnB-style platform for loaning and renting musical instruments.  App implemented searching and geocoding in Ruby on Rails",
+      "An application used to get a github user's top programming language based on how frequent the language has been used in each repo by the user, and display that as the favourite language to the user, built with React, JavaScript, HTML, CSS and GitHub REST API. Deployed using AWS",
   },
 ];
 
